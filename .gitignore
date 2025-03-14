@@ -66,7 +66,6 @@ node_modules/
 .env
 
 # firebase config related files
-.firebaserc
-firebase.json
-out/
+
+
 public/
