@@ -64,9 +64,9 @@
       name="twitter:image"
       content="https://connectwithsandeepan.in/assets/sandeepan.jpg"
     />
-
-    <link rel="stylesheet" href="./sytles/style.css" />
-    <link rel="stylesheet" href="./sytles/mediaquery.css" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/mediaquery.css" />
   </head>
 
   <body>
@@ -442,5 +442,17 @@
     </script>
 
     <script src="./scripts/index.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./service-worker.js")
+          .then((registration) =>
+            console.log("ServiceWorker registration successful")
+          )
+          .catch((err) =>
+            console.log("ServiceWorker registration failed: ", err)
+          );
+      }
+    </script>
   </body>
 </html>
