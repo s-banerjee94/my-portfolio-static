@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my skills, experience, and projects as a Full Stack Developer.
 
-![Portfolio Preview](public/assets/Sandeepan_Banerjees_portfolio.jpeg)
+<img src="public/assets/Sandeepan_Banerjees_portfolio.jpeg" alt="Portfolio Preview" />
 
 ## 🌟 Live Demo
 
