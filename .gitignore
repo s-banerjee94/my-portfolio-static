@@ -65,7 +65,7 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# firebase config related files
+.idea
 
 
 
